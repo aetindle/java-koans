@@ -3,6 +3,7 @@ package beginner;
 import static com.sandwich.koan.constant.KoanConstants.__;
 import static com.sandwich.util.Assert.assertEquals;
 
+import java.lang.Integer;
 import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +17,7 @@ public class AboutObjects {
 		assertEquals(new Object() instanceof Object, __);
 	}
 
-	@Koan
+		@Koan
 	public void allClassesInheritFromObject() {
 		class Foo {}
 
